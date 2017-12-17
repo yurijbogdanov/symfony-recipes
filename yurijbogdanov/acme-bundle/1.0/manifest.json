@@ -1,0 +1,12 @@
+{
+    "bundles": {
+        "Acme\\AcmeBundle": ["all"]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    },
+    "env": {
+        "ACME_FOO": "hello",
+        "ACME_BAR": "world"
+    }
+}
